@@ -67,7 +67,7 @@ const Contact = () => {
       )}
       <section className="contact-info" style={{ marginTop: "2.5rem", textAlign: "center" }}>
         <h3 style={{ color: "#1a2940", marginBottom: "1rem" }}>Other Ways to Reach Us</h3>
-        <p>Email: <a href="mailto:info@nexoratech.com" style={{ color: "#4ea8ff" }}>info@nexoratech.com</a></p>
+        {/* <p>Email: <a href="mailto:info@nexoratech.com" style={{ color: "#4ea8ff" }}>info@nexoratech.com</a></p> */}
         <p>WhatsApp: <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" style={{ color: "#4ea8ff", fontWeight: 600, fontSize: '1.08rem', display: 'inline-flex', alignItems: 'center' }}>
           <span style={{fontSize: '1.3em', marginRight: 6}}>💬</span>Chat with us on WhatsApp
         </a></p>
