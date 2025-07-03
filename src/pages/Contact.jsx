@@ -81,18 +81,8 @@ const Contact = () => {
             <span style={{fontSize: '1.3em'}}>💬</span> Start WhatsApp Chat
           </a>
         </div>
-        <p>Address: 123 Main Street, New York, USA</p>
-        <div style={{ marginTop: "1.5rem" }}>
-          <iframe
-            title="Company Location"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-74.012,40.705,-74.001,40.715&layer=mapnik"
-            width="100%"
-            height="180"
-            style={{ border: 0, borderRadius: '0.7rem', maxWidth: 400 }}
-            allowFullScreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
+        {/* Address removed as requested */}
+        {/* Map removed as requested */}
       </section>
     </main>
   );
