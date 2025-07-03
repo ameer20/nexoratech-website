@@ -48,7 +48,7 @@ const Contact = () => {
           <p>We appreciate your message and will respond as soon as possible.</p>
         </div>
       ) : (
-        <form className="contact-form" onSubmit={handleSubmit} style={{ background: "#f0f6fb", borderRadius: "1rem", boxShadow: "0 2px 8px 0 rgba(30, 60, 120, 0.04)", padding: "2rem", maxWidth: 500, margin: "0 auto" }}>
+        <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Your Name</label>
             <input id="name" name="name" type="text" placeholder="Enter your name" value={form.name} onChange={handleChange} required />
